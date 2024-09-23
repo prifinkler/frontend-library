@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin-top: 50px;
+  min-width: 500px;
+  background-color: #1E213F;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+.main {
+  width: 300px;
+  height: 500px;
+}
+
+.outer-circle {
+  position: relative;
+  margin-top: 60px;
+  border-radius: 50%;
+  height: 300px;
+  background: linear-gradient(315deg, #2E325A 0%, #0E112A 100%);
+  box-shadow: -50px -50px 100px #272C5A, 50px 50px 100px #121530;
+}
+
+.inner-circle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+  background: #161932;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#timer {
+  color: #d7e0ff;
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 100px;
+  position: absolute;
+}
+
+.control-btn {
+  color: #d7e0ff;
+  background: transparent;
+  font-family: 'Kumbh Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12x;
+  line-height: 20px;
+  letter-spacing: 15px;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.control-btn::after {
+  content: " ";
+  margin-left: -15px;
+}
+
+#pause-resume-btn {
+  top: 28%;
+  position: relative;
+}
+
+.control-btn:hover {
+  color: white;
+}
+
+.toggle {
+  display: flex;
+  justify-content: space-between;
+  background-color: #161932;
+  border-radius: 31.5px;
+  padding: 8px;
+  z-index: 999;
+}
+
+.toggle-btn {
+  padding: 12px 8px;
+  border: none;
+  background: none;
+  color: #7e7f90;
+  cursor: pointer;
+  border-radius: 26.5px;
+  transition: all 0.3s ease;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.toggle-btn.active {
+  background-color: #f87070;
+  color: #161932;
+}
+
+.toggle-btn.active:hover {
+  background-color: #f98d8d;
+}

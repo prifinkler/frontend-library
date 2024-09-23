@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="popup.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap" rel="stylesheet">
+  <title>Pomodoro Timer</title>
+</head>
+<body>
+  <div class="main">
+    <div class="toggle">
+      <button class="toggle-btn" id="pomodoro-btn">pomodoro</button>
+      <button class="toggle-btn" id="shortBreak-btn">short break</button>
+      <button class="toggle-btn" id="longBreak-btn">long break</button>
+    </div>
+    <div class="outer-circle">
+      <div class="inner-circle">
+          <div id="timer">20:00</div>
+          <button id="pause-resume-btn" class="control-btn">START</button>
+      </div>
+    </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
