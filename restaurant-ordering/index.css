@@ -53,7 +53,7 @@ ul {
 
 /* Layout */
 .container {
-  padding: 0 45px;
+  padding: 0 45px 45px 45px;
 }
 
 header {
@@ -86,17 +86,26 @@ main {
   border: 1px solid #DEDEDE;
   border-radius: 50%;
   padding: 16px;
-  display: flex;
-  align-items: center;
   background-color: #ffffff;
+  width: 50px;
+  height: 50px;
 }
 
-.add-btn:hover, .add-btn:active{
+.add-btn:hover{
+  border: 2px solid #16DB99;
+}
+
+.add-btn:active{
   scale: 1.1;
 }
 
 /* Order section */
-#order > h3 {
+
+.hidden{
+  display: none;
+}
+
+#order-section > h3 {
   text-align: center;
   margin: 30px 0;
 }
@@ -149,6 +158,10 @@ main {
   margin: 35px 0;
 }
 
-#purchase-btn:hover, #purchase-btn:active{
+#purchase-btn:hover {
   background-color: #12bf85;
+}
+
+#purchase-btn:active {
+  scale: 1.01;
 }
