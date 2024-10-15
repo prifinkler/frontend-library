@@ -1,6 +1,6 @@
-# Frontend Developer Path Mini Projects
+# Frontend Library
 
-This repository contains a collection of mini-projects developed as part of a frontend development learning path. Each project demonstrates different aspects of web development, from basic HTML and CSS to more advanced JavaScript applications and Chrome extensions.
+This repository showcases my journey in frontend development, featuring a collection of projects that demonstrate my growing skills and expertise in the field. This library is a continuous work-in-progress, reflecting my commitment to learning and improving as a frontend developer. It encompasses a wide range of technologies and concepts, from **responsive design** to **interactive JavaScript** applications and **Chrome extensions**, all built with **accessibility** in mind.
 
 ## Setup and Usage
 Each project is contained in its own directory. To run a project locally:
